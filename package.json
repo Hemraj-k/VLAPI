@@ -1,0 +1,19 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./database.json",
+    "start-auth": "node server.js"
+  },
+  "author": "Hemraj KS",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "otp-generator": "^4.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
